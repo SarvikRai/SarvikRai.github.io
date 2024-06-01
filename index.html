@@ -3,59 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Futuristic Purple Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Futuristic Purple Gradient Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #4e0075, #8900b5);
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        header {
+            padding: 20px 0;
+        }
+        h1 {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            color: #4e0075;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .btn:hover {
+            background-color: #4e0075;
+            color: #ffffff;
+        }
+        footer {
+            padding: 20px 0;
+            background-color: #4e0075;
+            color: #ffffff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-
-<header>
-    <div class="container">
-        <h1>Futuristic Purple</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-
-<section class="hero">
-    <div class="container">
-        <h2>Welcome to the Future</h2>
-        <p>Your one-stop destination for all things futuristic.</p>
-        <a href="#" class="btn">Get Started</a>
-    </div>
-</section>
-
-<section class="features">
-    <div class="container">
-        <h2>Features</h2>
-        <div class="feature">
-            <i class="fas fa-rocket"></i>
-            <h3>Rapid Innovation</h3>
-            <p>Stay ahead of the curve with our rapid innovation techniques.</p>
+    <header>
+        <div class="container">
+            <h1>Welcome to Futuristic Purple Gradient Website</h1>
+            <p>This is a cool and functional website with a futuristic purple gradient design.</p>
+            <a href="#" class="btn">Explore</a>
         </div>
-        <div class="feature">
-            <i class="fas fa-globe"></i>
-            <h3>Global Reach</h3>
-            <p>Reach audiences worldwide with our global network.</p>
+    </header>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Futuristic Purple Gradient Website. All rights reserved.</p>
         </div>
-        <div class="feature">
-            <i class="fas fa-cogs"></i>
-            <h3>Advanced Technology</h3>
-            <p>Experience the latest in advanced technology solutions.</p>
-        </div>
-    </div>
-</section>
-
-<footer>
-    <div class="container">
-        <p>&copy; 2024 Futuristic Purple. All rights reserved.</p>
-    </div>
-</footer>
-
+    </footer>
 </body>
 </html>
